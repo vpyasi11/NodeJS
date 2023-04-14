@@ -13,4 +13,10 @@ function add(a,b){
     return c
 }
 
+age =10
+
 module.exports = add
+// or
+module.exports.add = add
+// adding . makes objects 
+module.exports.age = age
